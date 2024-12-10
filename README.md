@@ -8,7 +8,7 @@ HTML and CSS template for your outstanding job applications
 
 ## What is Oh, So Simple HTML CV?
 
-**Oh, So Clear HTML CV!** is simple, clear and aesthetic **Resume** template for beginners to better understand HTML5 and CSS basics by example.
+**Oh, So Clear HTML CV!** is simple, clear and aesthetic **Resume** template.
 
 **This page will help you:**
 
@@ -18,12 +18,8 @@ HTML and CSS template for your outstanding job applications
 * implement good-looking responsive layouts
 * use Font Awesome 5 for social media
 
-This repo contains the final source code for free tutorial.
+This repo contains the final source code.
 
-Full explanation and task you can find in Polish: [CV HTML / CSS](https://www.flynerd.pl/2018/07/stworz-cv-w-html-i-css-krok-po-kroku.html)
-
-## Demo
-Check demo here: [Ocat CV](https://ritaly.github.io/HTML-CSS-CV-demo/)
 
 ## Credits
 Please feel free to copy any part of this repo for your own uses.
