@@ -149,11 +149,22 @@ ul.job-description li:before{
   outline: none;
   transition: 0.4s;
 }
+
+.company-name {
+  font-size: 18px; /* Larger font for company name */
+  font-weight: 550;
+}
+
+.job-info {
+  font-size: 14px; /* Smaller font for the date and position */
+  color: #474747; /* Lighter color for the date and position */
+}
+
 .accordion:nth-child(odd) .accordion-button {
   background-color: #f1f1f1;
 }
 .accordion:nth-child(even) .accordion-button {
-  background-color: #9bdbd6;
+  background-color: #7fc9c1af;
 }
 .accordion-button:hover {
   background-color: #ccc;
@@ -164,6 +175,24 @@ ul.job-description li:before{
   background-color: white;
   overflow: hidden;
 }
+
+.dropdown-icon {
+  float: right;
+  font-size: 20px;
+  padding-top: 5px;
+  transition: transform 0.3s ease;
+  color:rgba(53, 53, 53, 0.788);
+}
+
+.accordion-button.active .dropdown-icon {
+  transform: rotate(180deg); /* Rotate icon when content is open (up arrow) */
+}
+
+
+.accordion-button.active + .accordion-content {
+  display: block; /* Show the content when the button has "active" class */
+}
+
 .accordion-content.show {
   display: block;
 }
